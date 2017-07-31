@@ -17,14 +17,15 @@ import java.util.Collections.*
 //
 // Extra credit: What if you started with more numbers, e.g., one through 1,000?
 
+// sort factors table by number of factors. sort factors by their number of factors. pull 1st number from factors with
+// most factors. Once number is removed, remove it from all factors lists. resort factors and factors list. repeat
+
 fun longestNumberChainBetween(range: Int): MutableList<Int> {
     var currentChain = mutableListOf<Int>()
     var longestChain = mutableListOf<Int>()
     var numbers = (1..100).toMutableList()
     var factorsTable = mutableListOf<Pair<Int, MutableList<Int>>>()
-    // use numbers with fewest factors first in order to have more so that when that factor is used other numbers
-    // will still have factors
-    // generate a table that has the factors of numbers from 100 downto 1
+
     for (x in 100 downTo 1) {
         val factors: MutableList<Int> = findFactorsFor(x)
         factorsTable.add(Pair(x, factors))
