@@ -14,9 +14,50 @@ package ArraysAndStrings
 // pale, bale   -> true
 // pale, bake   -> false
 
-fun isOneEditAway(input: String): Boolean {
-    var isOneEditAway = false
+fun isOneEditAway(firstWord: String, secondWord: String): Boolean {
+		if (Math.abs(firstWord.length - secondWord.length) > 1) return false
 
+		var diff = 0
+		val longerWord: String
+		val shorterWord: String
+		var equalFlag = false
+		when {
+				firstWord.length > secondWord.length -> {
+						longerWord = firstWord
+						shorterWord = secondWord
+				}
+				secondWord.length > firstWord.length -> {
+						longerWord = secondWord
+						shorterWord = firstWord
+				}
+				else -> {
+						equalFlag = true
+						longerWord = secondWord
+						shorterWord = firstWord
+				}
+		}
+		var j = 0
+		for (i in 0 until longerWord.length){
+				if (j == shorterWord.length) break
+				if (longerWord[i] == shorterWord[j]){
+						j += 1
+				}
+				else {
+						diff += 1
+						if (diff > 1){
+								break
+						}
+						if (equalFlag){
+								j += 1
+						}
+				}
+		}
+		return diff <= 1
+}
 
-    return isOneEditAway
+fun main(args: Array<String>) {
+		println("Should return true: ${isOneEditAway("pale", "ple")}")
+		println("Should return true: ${isOneEditAway("pales", "pale")}")
+		println("Should return true: ${isOneEditAway("pale", "bale")}")
+		println("Should return false: ${isOneEditAway("pale", "bake")}")
 }

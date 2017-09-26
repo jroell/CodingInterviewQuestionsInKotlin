@@ -24,7 +24,7 @@ fun rotateMatrix(input: Array<IntArray>): Array<IntArray> {
 }
 
 fun Array<IntArray>.prettyPrint() {
-		this.forEach {
+		this.forEach{
 				it.forEach {
 						print("$it|")
 				}

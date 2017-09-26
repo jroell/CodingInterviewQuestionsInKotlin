@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54ff1bf0-7d73-4e14-a0ec-1d9792727329" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ArraysAndStrings/OneAway.kt" afterPath="$PROJECT_DIR$/src/ArraysAndStrings/OneAway.kt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ArraysAndStrings/RotateMatrix.kt" afterPath="$PROJECT_DIR$/src/ArraysAndStrings/RotateMatrix.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.kt" afterPath="$PROJECT_DIR$/src/main.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path=".idea/checkstyle-idea.xml" />
@@ -58,11 +57,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="RotateMatrix.kt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/RotateMatrix.kt">
+      <file leaf-file-name="OneAway.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/OneAway.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="34" column="4" lean-forward="false" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+            <state relative-caret-position="356">
+              <caret line="57" column="21" lean-forward="true" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -120,7 +119,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ModerateDifficultQuestions/DivingBoard.kt" />
         <option value="$PROJECT_DIR$/src/ModerateDifficultQuestions/XMLEncoding.kt" />
         <option value="$PROJECT_DIR$/src/ModerateDifficultQuestions/BestLine.kt" />
         <option value="$PROJECT_DIR$/src/ModerateDifficultQuestions/MasterMind.kt" />
@@ -171,6 +169,7 @@
         <option value="$PROJECT_DIR$/src/ModerateDifficultQuestions/BisectSquares.kt" />
         <option value="$PROJECT_DIR$/src/main.kt" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/RotateMatrix.kt" />
+        <option value="$PROJECT_DIR$/src/ArraysAndStrings/OneAway.kt" />
       </list>
     </option>
   </component>
@@ -438,7 +437,19 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.ArraysAndStrings.RotateMatrixKt">
+  <component name="RunManager" selected="Kotlin.ArraysAndStrings.OneAwayKt">
+    <configuration name="ArraysAndStrings.OneAwayKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.OneAwayKt" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="CTCIAllProblems" />
+      <envs />
+    </configuration>
     <configuration name="ArraysAndStrings.PalindromePermutationKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.PalindromePermutationKt" />
@@ -478,18 +489,6 @@
     <configuration name="ModerateDifficultQuestions.ContiguousSequenceKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="ModerateDifficultQuestions.ContiguousSequenceKt" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="CTCIAllProblems" />
-      <envs />
-    </configuration>
-    <configuration name="StacksAndQueues.Misc.NumberChainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="StacksAndQueues.Misc.NumberChainKt" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -709,19 +708,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Kotlin.StacksAndQueues.Misc.NumberChainKt" />
-      <item index="1" class="java.lang.String" itemvalue="Kotlin.ArraysAndStrings.PalindromePermutationKt" />
-      <item index="2" class="java.lang.String" itemvalue="Kotlin.ArraysAndStrings.RotateMatrixKt" />
-      <item index="3" class="java.lang.String" itemvalue="Kotlin.ModerateDifficultQuestions.ContiguousSequenceKt" />
-      <item index="4" class="java.lang.String" itemvalue="Kotlin.MainKt" />
+      <item index="0" class="java.lang.String" itemvalue="Kotlin.ArraysAndStrings.PalindromePermutationKt" />
+      <item index="1" class="java.lang.String" itemvalue="Kotlin.ArraysAndStrings.RotateMatrixKt" />
+      <item index="2" class="java.lang.String" itemvalue="Kotlin.ModerateDifficultQuestions.ContiguousSequenceKt" />
+      <item index="3" class="java.lang.String" itemvalue="Kotlin.MainKt" />
+      <item index="4" class="java.lang.String" itemvalue="Kotlin.ArraysAndStrings.OneAwayKt" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Kotlin.ArraysAndStrings.RotateMatrixKt" />
-        <item index="1" class="java.lang.String" itemvalue="Kotlin.MainKt" />
-        <item index="2" class="java.lang.String" itemvalue="Kotlin.ArraysAndStrings.PalindromePermutationKt" />
-        <item index="3" class="java.lang.String" itemvalue="Kotlin.ModerateDifficultQuestions.ContiguousSequenceKt" />
-        <item index="4" class="java.lang.String" itemvalue="Kotlin.StacksAndQueues.Misc.NumberChainKt" />
+        <item index="0" class="java.lang.String" itemvalue="Kotlin.ArraysAndStrings.OneAwayKt" />
+        <item index="1" class="java.lang.String" itemvalue="Kotlin.ArraysAndStrings.RotateMatrixKt" />
+        <item index="2" class="java.lang.String" itemvalue="Kotlin.MainKt" />
+        <item index="3" class="java.lang.String" itemvalue="Kotlin.ArraysAndStrings.PalindromePermutationKt" />
+        <item index="4" class="java.lang.String" itemvalue="Kotlin.ModerateDifficultQuestions.ContiguousSequenceKt" />
       </list>
     </recent_temporary>
   </component>
@@ -746,12 +745,12 @@
       <workItem from="1501261143239" duration="15129000" />
       <workItem from="1501517423225" duration="6950000" />
       <workItem from="1506351260018" duration="2261000" />
-      <workItem from="1506365194657" duration="8649000" />
+      <workItem from="1506365194657" duration="16412000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32989000" />
+    <option name="totallyTimeSpent" value="40752000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -774,10 +773,11 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.48333332" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4" sideWeight="0.48333332" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32927758" sideWeight="0.49763033" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -786,7 +786,7 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287234" sideWeight="0.48132336" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287234" sideWeight="0.48132336" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2356021" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32765958" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -801,7 +801,6 @@
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="GitLabIntegration" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -834,7 +833,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="18" />
+      <option name="time" value="21" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1196,56 +1195,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/CheckPermutation.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1501261021355" expanded="true" signature="26:62" ph="/** Created by Jason 7/10/17. ...*/" />
-            <marker date="1501261021355" expanded="true" signature="207:525" ph="{...}" />
-            <marker date="1501261021355" expanded="true" signature="318:359" ph="{...}" />
-            <marker date="1501261021355" expanded="true" signature="387:506" ph="{...}" />
-            <marker date="1501261021355" expanded="true" signature="464:500" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/IsUnique.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1501261021355" expanded="true" signature="26:62" ph="/** Created by Jason 7/10/17. ...*/" />
-            <marker date="1501261021355" expanded="true" signature="231:527" ph="{...}" />
-            <marker date="1501261021355" expanded="true" signature="316:508" ph="{...}" />
-            <marker date="1501261021355" expanded="true" signature="376:412" ph="{...}" />
-            <marker date="1501261021355" expanded="true" signature="426:502" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/OneAway.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/PalindromePermutation.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding>
-            <marker date="1501521297986" expanded="true" signature="26:62" ph="/** Created by Jason 7/10/17. ...*/" />
-            <marker date="1501521297986" expanded="true" signature="497:883" ph="{...}" />
-            <marker date="1501521297986" expanded="true" signature="571:781" ph="{...}" />
-            <marker date="1501521297986" expanded="true" signature="613:720" ph="{...}" />
-            <marker date="1501521297986" expanded="true" signature="726:775" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/URLify.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
@@ -1279,8 +1228,70 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/RotateMatrix.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="34" column="4" lean-forward="false" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+        <state relative-caret-position="397">
+          <caret line="39" column="4" lean-forward="false" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+          <folding>
+            <marker date="1506461345475" expanded="false" signature="26:62" ph="/** Created by Jason 7/10/17. ...*/" />
+            <marker date="1506461345475" expanded="true" signature="292:725" ph="{...}" />
+            <marker date="1506461345475" expanded="true" signature="410:708" ph="{...}" />
+            <marker date="1506461345475" expanded="true" signature="445:704" ph="{...}" />
+            <marker date="1506461345475" expanded="true" signature="761:841" ph="{...}" />
+            <marker date="1506461345475" expanded="true" signature="777:839" ph="{...}" />
+            <marker date="1506461345475" expanded="true" signature="794:821" ph="{...}" />
+            <marker date="1506461345475" expanded="true" signature="873:1129" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/PalindromePermutation.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <marker date="1501521297986" expanded="true" signature="26:62" ph="/** Created by Jason 7/10/17. ...*/" />
+            <marker date="1501521297986" expanded="true" signature="497:883" ph="{...}" />
+            <marker date="1501521297986" expanded="true" signature="571:781" ph="{...}" />
+            <marker date="1501521297986" expanded="true" signature="613:720" ph="{...}" />
+            <marker date="1501521297986" expanded="true" signature="726:775" ph="{...}" />
+            <marker date="1501521297986" expanded="true" signature="915:1225" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/CheckPermutation.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1501261021355" expanded="true" signature="26:62" ph="/** Created by Jason 7/10/17. ...*/" />
+            <marker date="1501261021355" expanded="true" signature="207:525" ph="{...}" />
+            <marker date="1501261021355" expanded="true" signature="318:359" ph="{...}" />
+            <marker date="1501261021355" expanded="true" signature="387:506" ph="{...}" />
+            <marker date="1501261021355" expanded="true" signature="464:500" ph="{...}" />
+            <marker date="1501261021355" expanded="true" signature="557:761" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/IsUnique.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1501261021355" expanded="true" signature="26:62" ph="/** Created by Jason 7/10/17. ...*/" />
+            <marker date="1501261021355" expanded="true" signature="231:527" ph="{...}" />
+            <marker date="1501261021355" expanded="true" signature="316:508" ph="{...}" />
+            <marker date="1501261021355" expanded="true" signature="376:412" ph="{...}" />
+            <marker date="1501261021355" expanded="true" signature="426:502" ph="{...}" />
+            <marker date="1501261021355" expanded="true" signature="559:681" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/OneAway.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="57" column="21" lean-forward="true" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
           <folding />
         </state>
       </provider>
