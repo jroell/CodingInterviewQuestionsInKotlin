@@ -7,8 +7,8 @@ package ArraysAndStrings
 // Write an algorithm such that if an element in an MxN matrix is 0, its entire row and column are set to 0.
 
 fun zeroOutMatrix(input: Array<Array<Int>>): Array<Array<Int>> {
-    var rowsWithZero = mutableSetOf<Int>()
-    var columnsWithZero = mutableSetOf<Int>()
+    val rowsWithZero = mutableSetOf<Int>()
+    val columnsWithZero = mutableSetOf<Int>()
     for ((i, row) in input.withIndex()){
         for ((j, column) in row.withIndex()){
             if (column == 0){
@@ -18,7 +18,7 @@ fun zeroOutMatrix(input: Array<Array<Int>>): Array<Array<Int>> {
         }
     }
 
-    var fullSet = rowsWithZero + columnsWithZero
+    val fullSet = rowsWithZero + columnsWithZero
     for ((i, row) in input.withIndex()){
 
         for ((j, column) in row.withIndex()){
@@ -42,6 +42,6 @@ fun Array<Array<Int>>.prettyPrint(){
 
 fun main(args: Array<String>) {
     var matrix = arrayOf(arrayOf(1,3,4,4), arrayOf(1,4,4,0), arrayOf(0, 1,3,4), arrayOf(1,3,4,5))
-    println("Should print zero'd out matrix: ${matrix.prettyPrint()}")
+    println("Should print regular matrix: ${matrix.prettyPrint()}")
     println("Should print zero'd out matrix: ${zeroOutMatrix(matrix).prettyPrint()}")
 }

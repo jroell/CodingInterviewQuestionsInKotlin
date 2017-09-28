@@ -11,6 +11,21 @@ package LinkedLists
 // Input: the node c from the linked list a -> b -> c -> d -> e -> f
 
 fun <T> DeleteMiddleNode(input: Node<T>): Node<T> {
+    // ave a runner that moves 2 spaces everytime the index moves 1
+    // when runner gets to the end of the linked list then index will be at the middle element
+    var runner = input
+    var slow = input
+    var prev = input
+    var count = 0
+    while (runner.next != null){
+        runner = runner.next!!
+        if(count % 2 != 0){
+            prev = slow
+            slow = slow.next!!
+        }
+    }
+
+    prev.next = slow.next
 
     return input
 }

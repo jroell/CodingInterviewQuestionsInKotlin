@@ -9,15 +9,15 @@ package ArraysAndStrings
 // rotation of "erbottlewat").
 
 fun isRotation(input1: String, input2: String): Boolean {
-    var isRotation = false
-    var joinedWords = input2 + input2
+    val isRotation: Boolean
+    val joinedWords = input2 + input2
     isRotation = joinedWords.isSubstring(input1)
 
     return isRotation
 }
 
 fun String.isSubstring(input1: String): Boolean {
-    var index: Int = this.indexOf(input1)
+    val index: Int = this.indexOf(input1)
     return index > 0
 }
 
