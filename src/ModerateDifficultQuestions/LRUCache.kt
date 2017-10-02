@@ -21,7 +21,7 @@ class LRUCache(private val minHeap: PriorityQueue<Pair<String, Date>>) {
     }
 
     fun evictStale(): PriorityQueue<Pair<String, Date>> {
-        minHeap.remove()
+        println("Removing oldest cached value: ${minHeap.poll()}")
         return minHeap
     }
 }
@@ -31,7 +31,7 @@ class LRUCache(private val minHeap: PriorityQueue<Pair<String, Date>>) {
 fun main(args: Array<String>) {
 
     val minHeap = PriorityQueue<Pair<String, Date>>(100, kotlin.Comparator {
-        x, y ->  if(x.second < y.second) 1 else 0
+        x, y ->  x.second.compareTo(y.second)
     })
 
     val oldestTime = Date.from(Instant.now())
@@ -40,5 +40,5 @@ fun main(args: Array<String>) {
     minHeap.add(Pair("Old Value", oldestTime))
     minHeap.add(Pair("Newest Value", newerTime))
 
-    println("Should print ...${LRUCache(minHeap).evictStale()}")
+    println("Should print Newest Value (with 'Old Value removed from heap'): Actual: ${LRUCache(minHeap).evictStale()}")
 }
