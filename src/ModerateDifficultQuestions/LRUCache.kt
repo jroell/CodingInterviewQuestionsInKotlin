@@ -1,9 +1,7 @@
 package ModerateDifficultQuestions
 
-import java.sql.Time
 import java.time.Instant
 import java.util.*
-import javax.xml.crypto.Data
 
 /**
  * Created by Jason on 7/16/17.
@@ -12,7 +10,6 @@ import javax.xml.crypto.Data
 // Design and build a "least recently used" cache, which evicts the least recently used item. The cache should map
 // from keys to values (allowing you to insert and retrieve a value associated with a particular key) and be
 // initialized with a max size. When it is full, it should evict the least recently used item.
-
 
 class LRUCache(private val minHeap: PriorityQueue<Pair<String, Date>>) {
 
@@ -27,11 +24,10 @@ class LRUCache(private val minHeap: PriorityQueue<Pair<String, Date>>) {
 }
 
 
-
 fun main(args: Array<String>) {
 
-    val minHeap = PriorityQueue<Pair<String, Date>>(100, kotlin.Comparator {
-        x, y ->  x.second.compareTo(y.second)
+    val minHeap = PriorityQueue<Pair<String, Date>>(100, kotlin.Comparator { x, y ->
+        x.second.compareTo(y.second)
     })
 
     val oldestTime = Date.from(Instant.now())
