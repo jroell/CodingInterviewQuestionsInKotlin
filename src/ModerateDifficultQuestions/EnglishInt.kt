@@ -1,5 +1,7 @@
 package ModerateDifficultQuestions
 
+import org.testng.annotations.Test
+
 /**
  * Created by Jason on 7/16/17.
  */
@@ -32,6 +34,7 @@ fun Int.toEnglish(): String {
 
             val unReversedSegment = segment.reversed()
             builder.add(addTensPosition(segmentCount))
+
 
             when {
                 unReversedSegment.length == 3 -> {
