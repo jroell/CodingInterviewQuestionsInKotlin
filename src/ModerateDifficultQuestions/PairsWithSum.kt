@@ -7,10 +7,12 @@ package ModerateDifficultQuestions
 // Design an algorithm to find all pairs of integers within an array which sum to a specified value.
 
 fun findPairsWithSum(arr: Array<Int>, sum: Int): List<Pair<Int, Int>> {
+
     // is there another number that I can add to that equals the sum
     // we know that if we have a set made up of the difference between our number and the sum
     // then we know all the numbers we are looking for
-    // we should then ask if the number it plus (any) from the set == that sum
+    // we should then iterate the original array and ask if 'it' is in that set
+
     val setOfPossibleAdds: Set<Int> = createSetOfDifferenceBetweenKandIt(arr, sum)
     return arr.filter { setOfPossibleAdds.contains(it) }.map { Pair(it, sum - it) }
 }
