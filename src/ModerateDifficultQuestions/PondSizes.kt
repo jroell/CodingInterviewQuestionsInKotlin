@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 package ModerateDifficultQuestions
 
 /**
@@ -9,7 +8,6 @@ package ModerateDifficultQuestions
 // above sea level. A value of zero indicates water. A pond is a region of water connected vertically, horizontally,
 // or diagonally. The size of the pond is the total number of connected water cells. Write a method to compute the
 // sizes of all ponds in the matrix
-class PondFinder {
 
     val ponds = arrayListOf<Pond>()
     val pondNodes = arrayListOf<PondNode>()
@@ -34,7 +32,7 @@ class PondFinder {
         if (potentialPondNode == 1) {
             createOrIgnorePondNode(x - 1, y + 1, pondId)
         }
-
+        return listOf<Pair<Int, Int>>()
     }
 
     private fun createOrIgnorePondNode(x: Int, y: Int, pondId: Int) {
@@ -46,7 +44,7 @@ class PondFinder {
             pond.size += 1
         }
         else {
-            val pond = Pond(pondId, 1).pondNodes.add(PondNode(x,y))
+//            val pond = Pond(pondId, 1).pondNodes.add(PondNode(x,y))
 
         }
     }
@@ -57,10 +55,7 @@ class PondFinder {
         val pondNodes = arrayListOf<PondNode>()
     }
 
-}
-
 fun main(args: Array<String>) {
-    val pondFinder = PondFinder()
     val pond = listOf(listOf(1, 0, 0, 1, 1, 1,
             1, 1, 1, 1, 0, 0,
             1, 0, 0, 1, 0, 0,
@@ -68,17 +63,5 @@ fun main(args: Array<String>) {
             1, 1, 1, 0, 1, 0,
             1, 1, 0, 1, 1, 0))
 
-    println("Should print...: Actual: ${pondFinder.computeSizesOfAllPonds(pond)}")
+    println("Should print...: Actual: ${computeSizesOfAllPonds(pond)}")
 }
-=======
-package ModerateDifficultQuestions
-
-/**
- * Created by Jason on 7/16/17.
- */
-
-// You have an integer matrix representing a plot of land, where the value at that location represents the height
-// above sea level. A value of zero indicates water. A pond is a region of water connected vertically, horizontally,
-// or diagonally. The size of the pond is the total number of connected water cells. Write a method to compute the
-// sizes of all ponds in the matrix
->>>>>>> Stashed changes
